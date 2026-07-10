@@ -1,6 +1,7 @@
 .container{
     max-width: 1200px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Nav bar style start*/
 nav{
@@ -36,6 +37,10 @@ ol li a{
     color: white;
     width: 600;
     cursor: pointer;
+}
+
+.nav-btn{
+    margin-top: 5px;
 }
 /* Nav bar style start*/
 
@@ -76,7 +81,7 @@ h1 span{
 
 .speaker-main h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     margin: 40px 0px;
 }
 .speaker-contant{
@@ -89,7 +94,7 @@ h1 span{
     height: 300px;
     width: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
 }
 
 .speaker-card h4{
@@ -105,14 +110,16 @@ h1 span{
 
 .speaker-card h3{
     font-size: 20px;
+     margin: 0 15px;
 }
 
 .speaker-card p{
     color: #575757;
+    margin: 10px 15px 20px;
 }
 
 .speaker-card:hover{
-    box-shadow: #9a9999;
+    box-shadow: #f8e0e0;
 }
 
 .speaker-card{
@@ -225,9 +232,36 @@ h1 span{
     margin-bottom:10px;
     text-align: left;
 }
-/*
-.outline-card-btn{
-    margin-top: 50px;
-}
-    */
 
+/* Footer Section Style*/
+.footer{
+    padding: 28px 60px;
+    margin-top: 2px 2px;
+    background-color: #0D1B2A;
+}
+
+.footer-contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    color: gray;
+    font-size: 15px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-right a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-right a:hover {
+    color: #ffffff;
+}
