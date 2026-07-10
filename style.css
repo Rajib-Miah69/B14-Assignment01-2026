@@ -1,0 +1,38 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-img img{
+    width: 100%;
+}
+
+ol{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+
+    
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color: white;
+    width: 600;
+}
