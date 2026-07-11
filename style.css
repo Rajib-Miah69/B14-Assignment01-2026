@@ -39,6 +39,13 @@ ol li a{
     cursor: pointer;
 }
 
+
+.nav-btn button:hover{
+    color:#12151e;
+
+}
+
+
 .nav-btn{
     margin-top: 5px;
 }
@@ -75,6 +82,11 @@ h1 span{
     margin-top: 50px;
     padding:200px 90px;
 }
+
+.hero-btn button:hover{
+     color:#12151e;
+}
+
 /* Hero section style end*/
 
 /* Speakers section style start*/
@@ -84,6 +96,7 @@ h1 span{
     font-size: 35px;
     margin: 40px 0px;
 }
+
 .speaker-contant{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -166,10 +179,6 @@ h1 span{
     padding:20px;
 }
 
-.card:hover{
-    color: #2563eb;
-}
-
 .card h4{
     color:gray;
     margin-bottom:2px;
@@ -202,9 +211,16 @@ h1 span{
     border-radius:5px;
     cursor:pointer;
 }
+.card button:hover{
+     color:#12151e;
+}
 
 .card-btn .common-btn{
     width: 100%;
+}
+
+.card-btn .common-btn:hover{
+    color:#12151e;
 }
 
 .card-active{
