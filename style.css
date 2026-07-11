@@ -166,6 +166,10 @@ h1 span{
     padding:20px;
 }
 
+.card:hover{
+    color: #2563eb;
+}
+
 .card h4{
     color:gray;
     margin-bottom:2px;
@@ -231,6 +235,61 @@ h1 span{
 .card-active li{
     margin-bottom:10px;
     text-align: left;
+}
+
+/* FAQ Section Style*/
+.faq {
+    padding: 60px 20px;
+    background: #f1f1f3;
+}
+
+.faq .container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #121212;
+}
+
+.faq .subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.faq details {
+    background: #fbfbfc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+}
+
+.faq summary {
+    cursor: pointer;
+    font-weight: 600;
+    list-style: none;
+}
+
+.faq summary::after {
+    content: "+";
+    float: right;
+    font-size: 20px;
+    color: #2563eb;
+}
+
+.faq details[open] summary::after {
+    content: "−";
+}
+
+.faq details p {
+    margin-top: 15px;
+    color: #555;
+    line-height: 1.6;
 }
 
 /* Footer Section Style*/
